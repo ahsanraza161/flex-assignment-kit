@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first{
+            display: flex;
+            flex-basis: 100%;
+            height: 20%;
+            justify-content: space-around;
+            gap: 2rem;
+        }
+        .firstone{
+            flex-basis: 100%;
+            height: 5rem;
+            background-color: greenyellow;
+            border: 1px solid black;
+        }
+        .onetwo{
+            flex: 2;
+        }
+        .firstone:nth-child(odd){
+            flex: 1;
+
+        }
+        .two{
+            display: flex;
+            flex-basis: 100%;
+            height: 20%;
+            justify-content: space-around;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .twoone{
+            flex-basis: 100%;
+            height: 5rem;
+            background-color: greenyellow;
+            border: 1px solid black;
+
+        }
+        .twoone:nth-child(even){
+            flex: 1;
+        }
+        .twoone:first-child{
+            flex: 3;
+
+        }
+        .twoone:last-child{
+            flex: 2;
+
+        }
+        .three{
+            display: flex;
+            flex-basis: 100%;
+            height: 20%;
+            justify-content: space-around;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .threeone{
+            flex-basis: 100%;
+            height: 5rem;
+            background-color: greenyellow;
+            border: 1px solid black;
+
+        }
+        .threeone:nth-child(even){
+            flex: 2;
+        }
+        .threeone:first-child{
+            flex: 1;
+
+        }
+        .threeone:last-child{
+            flex: 3;
+
+        }
+        .four{
+            display: flex;
+            flex-basis: 100%;
+            height: 20%;
+            justify-content: space-around;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .fourone{
+            flex-basis: 100%;
+            height: 5rem;
+            background-color: greenyellow;
+            border: 1px solid black;
+
+        }
+        .fourone:nth-child(even){
+            flex: 1;
+        }
+        .fourone:nth-child(odd){
+            flex: 2;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="first">
+        <div class="firstone"></div>
+        <div class="firstone onetwo"></div>
+        <div class="firstone"></div>
+    </div>
+    <div class="two">
+        <div class="twoone"></div>
+        <div class="twoone"></div>
+        <div class="twoone"></div>
+    </div>
+    <div class="three">
+        <div class="threeone"></div>
+        <div class="threeone"></div>
+        <div class="threeone"></div>
+    </div>
+    <div class="four">
+        <div class="fourone"></div>
+        <div class="fourone"></div>
+        <div class="fourone"></div>
+        <div class="fourone"></div>
+        <div class="fourone"></div>
+    </div>
+</body>
+</html>
